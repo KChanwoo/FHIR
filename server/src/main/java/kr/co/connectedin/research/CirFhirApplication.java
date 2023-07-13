@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist;
+package kr.co.connectedin.research;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.servers.Server;
