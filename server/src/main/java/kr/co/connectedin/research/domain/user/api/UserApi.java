@@ -3,16 +3,17 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.04.27
  */
-package kr.ac.yonsei.maist.domain.user.api;
+package kr.co.connectedin.research.domain.user.api;
 
-import kr.ac.yonsei.maist.domain.menu.service.MenuService;
-import kr.ac.yonsei.maist.domain.user.domain.User;
+import kr.co.connectedin.research.domain.menu.service.MenuService;
+import kr.co.connectedin.research.domain.user.domain.User;
 import kr.ac.yonsei.maist.domain.user.dto.*;
-import kr.ac.yonsei.maist.domain.user.service.UserService;
-import kr.ac.yonsei.maist.global.config.security.JwtTokenProvider;
-import kr.ac.yonsei.maist.global.response.ResponseMessage;
-import kr.ac.yonsei.maist.global.response.dataMessage.GeneralDataMessage;
-import kr.ac.yonsei.maist.global.response.dataMessage.PagingDataMessage;
+import kr.co.connectedin.research.domain.user.dto.*;
+import kr.co.connectedin.research.domain.user.service.UserService;
+import kr.co.connectedin.research.global.config.security.JwtTokenProvider;
+import kr.co.connectedin.research.global.response.ResponseMessage;
+import kr.co.connectedin.research.global.response.dataMessage.GeneralDataMessage;
+import kr.co.connectedin.research.global.response.dataMessage.PagingDataMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

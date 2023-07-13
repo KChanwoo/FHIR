@@ -4,12 +4,12 @@
  * @Date 2021.02.02
  * @Date 2022.06.14 - add find all, is allowed to access
  */
-package kr.ac.yonsei.maist.domain.menu.service;
+package kr.co.connectedin.research.domain.menu.service;
 
-import kr.ac.yonsei.maist.domain.menu.dao.MenuQueryFactory;
-import kr.ac.yonsei.maist.domain.menu.dao.MenuRepository;
-import kr.ac.yonsei.maist.domain.menu.dto.MenuDto;
-import kr.ac.yonsei.maist.domain.menu.dto.Method;
+import kr.co.connectedin.research.domain.menu.dao.MenuQueryFactory;
+import kr.co.connectedin.research.domain.menu.dao.MenuRepository;
+import kr.co.connectedin.research.domain.menu.dto.MenuDto;
+import kr.co.connectedin.research.domain.menu.dto.Method;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

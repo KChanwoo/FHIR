@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.domain.system.dto;
+package kr.co.connectedin.research.domain.system.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

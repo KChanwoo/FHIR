@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.system.dto;
+package kr.co.connectedin.research.domain.system.dto;
 
-import kr.ac.yonsei.maist.domain.system.domain.System;
+import kr.co.connectedin.research.domain.system.domain.System;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

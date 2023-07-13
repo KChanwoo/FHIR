@@ -2,9 +2,9 @@
  * @Author Chanwoo Gwon, Yonsei Univ. Researcher, since 2020.05
  * @Date 2021.01.03
  */
-package kr.ac.yonsei.maist.domain.system.dao;
+package kr.co.connectedin.research.domain.system.dao;
 
-import kr.ac.yonsei.maist.domain.system.domain.System;
+import kr.co.connectedin.research.domain.system.domain.System;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.List;

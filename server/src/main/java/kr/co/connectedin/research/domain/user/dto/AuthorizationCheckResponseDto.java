@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.domain.user.dto;
+package kr.co.connectedin.research.domain.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.domain.menu.dto;
+package kr.co.connectedin.research.domain.menu.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

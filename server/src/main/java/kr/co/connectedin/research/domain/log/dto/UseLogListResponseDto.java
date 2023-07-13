@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.log.dto;
+package kr.co.connectedin.research.domain.log.dto;
 
-import kr.ac.yonsei.maist.domain.log.domain.UseLog;
+import kr.co.connectedin.research.domain.log.domain.UseLog;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

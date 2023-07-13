@@ -3,17 +3,18 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.07
  */
-package kr.ac.yonsei.maist.domain.user.service;
+package kr.co.connectedin.research.domain.user.service;
 
-import kr.ac.yonsei.maist.domain.system.dao.SystemQueryFactory;
-import kr.ac.yonsei.maist.domain.system.exception.InvalidSystemCodeException;
-import kr.ac.yonsei.maist.domain.user.constant.UserConstant;
-import kr.ac.yonsei.maist.domain.user.dao.UserQueryFactory;
-import kr.ac.yonsei.maist.domain.user.dao.UserRepository;
-import kr.ac.yonsei.maist.domain.user.domain.User;
+import kr.co.connectedin.research.domain.system.dao.SystemQueryFactory;
+import kr.co.connectedin.research.domain.system.exception.InvalidSystemCodeException;
+import kr.co.connectedin.research.domain.user.constant.UserConstant;
+import kr.co.connectedin.research.domain.user.dao.UserQueryFactory;
+import kr.co.connectedin.research.domain.user.dao.UserRepository;
+import kr.co.connectedin.research.domain.user.domain.User;
 import kr.ac.yonsei.maist.domain.user.dto.*;
-import kr.ac.yonsei.maist.domain.user.exception.IdAndPasswordNotMatched;
-import kr.ac.yonsei.maist.global.dto.PagingDto;
+import kr.co.connectedin.research.domain.user.exception.IdAndPasswordNotMatched;
+import kr.co.connectedin.research.global.dto.PagingDto;
+import kr.co.connectedin.research.domain.user.dto.*;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

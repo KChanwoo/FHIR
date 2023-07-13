@@ -4,9 +4,9 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.07
  */
-package kr.ac.yonsei.maist.global.config.interceptor;
+package kr.co.connectedin.research.global.config.interceptor;
 
-import kr.ac.yonsei.maist.global.config.security.JwtTokenProvider;
+import kr.co.connectedin.research.global.config.security.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

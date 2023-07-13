@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.domain.user.constant;
+package kr.co.connectedin.research.domain.user.constant;
 
 public class UserConstant {
     public static final String ADMIN_CODE="01-01-00";

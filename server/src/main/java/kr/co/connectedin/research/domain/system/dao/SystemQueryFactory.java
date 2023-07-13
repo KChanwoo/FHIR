@@ -2,14 +2,14 @@
  * @Author Chanwoo Gwon, Yonsei Univ. Researcher, since 2020.05
  * @Date 2021.01.03
  */
-package kr.ac.yonsei.maist.domain.system.dao;
+package kr.co.connectedin.research.domain.system.dao;
 
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.core.types.dsl.NumberPath;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import kr.ac.yonsei.maist.domain.system.dto.SystemResponseDto;
-import kr.ac.yonsei.maist.domain.system.exception.InvalidSystemCodeException;
+import kr.co.connectedin.research.domain.system.dto.SystemResponseDto;
+import kr.co.connectedin.research.domain.system.exception.InvalidSystemCodeException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

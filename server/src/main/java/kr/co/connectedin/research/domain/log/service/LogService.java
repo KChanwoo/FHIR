@@ -1,12 +1,14 @@
-package kr.ac.yonsei.maist.domain.log.service;
+package kr.co.connectedin.research.domain.log.service;
 
-import kr.ac.yonsei.maist.domain.log.dao.ErrorLogRepository;
-import kr.ac.yonsei.maist.domain.log.dao.UseLogFactory;
-import kr.ac.yonsei.maist.domain.log.dao.UseLogRepository;
-import kr.ac.yonsei.maist.domain.log.domain.ErrorLog;
-import kr.ac.yonsei.maist.domain.log.domain.UseLog;
+import kr.co.connectedin.research.domain.log.dao.ErrorLogRepository;
+import kr.co.connectedin.research.domain.log.dao.UseLogFactory;
+import kr.co.connectedin.research.domain.log.dao.UseLogRepository;
+import kr.co.connectedin.research.domain.log.domain.ErrorLog;
+import kr.co.connectedin.research.domain.log.domain.UseLog;
 import kr.ac.yonsei.maist.domain.log.dto.*;
-import kr.ac.yonsei.maist.domain.user.dto.UserInformationDto;
+import kr.co.connectedin.research.domain.user.dto.UserInformationDto;
+import kr.co.connectedin.research.domain.log.dto.ErrorLogListResponseDto;
+import kr.co.connectedin.research.domain.log.dto.UseLogListResponseDto;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

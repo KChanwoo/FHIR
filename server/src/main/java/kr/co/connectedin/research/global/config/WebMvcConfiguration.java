@@ -3,11 +3,11 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.06
  */
-package kr.ac.yonsei.maist.global.config;
+package kr.co.connectedin.research.global.config;
 
-import kr.ac.yonsei.maist.global.config.interceptor.BuildKeyHandlerInterceptor;
-import kr.ac.yonsei.maist.global.config.interceptor.MenuHandlerInterceptor;
-import kr.ac.yonsei.maist.global.lib.Util;
+import kr.co.connectedin.research.global.config.interceptor.BuildKeyHandlerInterceptor;
+import kr.co.connectedin.research.global.config.interceptor.MenuHandlerInterceptor;
+import kr.co.connectedin.research.global.lib.Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

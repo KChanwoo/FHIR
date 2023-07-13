@@ -3,13 +3,13 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.07
  */
-package kr.ac.yonsei.maist.global.config.security;
+package kr.co.connectedin.research.global.config.security;
 
 import com.google.gson.Gson;
 import io.jsonwebtoken.*;
-import kr.ac.yonsei.maist.domain.user.dto.UserInformationDto;
-import kr.ac.yonsei.maist.global.error.exception.InvalidTokenException;
-import kr.ac.yonsei.maist.global.error.exception.UnauthorizedException;
+import kr.co.connectedin.research.domain.user.dto.UserInformationDto;
+import kr.co.connectedin.research.global.error.exception.InvalidTokenException;
+import kr.co.connectedin.research.global.error.exception.UnauthorizedException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

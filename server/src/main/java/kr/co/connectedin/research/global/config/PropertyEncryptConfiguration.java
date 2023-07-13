@@ -5,7 +5,7 @@
  * @Date 2020.10.16
  * @Reference http://www.jasypt.org/
  */
-package kr.ac.yonsei.maist.global.config;
+package kr.co.connectedin.research.global.config;
 
 import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;

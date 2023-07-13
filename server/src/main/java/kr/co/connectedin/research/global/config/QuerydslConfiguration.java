@@ -3,7 +3,7 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.06
  */
-package kr.ac.yonsei.maist.global.config;
+package kr.co.connectedin.research.global.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.context.annotation.Bean;

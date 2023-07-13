@@ -3,10 +3,10 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.07
  */
-package kr.ac.yonsei.maist.domain.log.api;
+package kr.co.connectedin.research.domain.log.api;
 
-import kr.ac.yonsei.maist.domain.log.service.LogService;
-import kr.ac.yonsei.maist.domain.user.service.UserService;
+import kr.co.connectedin.research.domain.log.service.LogService;
+import kr.co.connectedin.research.domain.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RestController;
 

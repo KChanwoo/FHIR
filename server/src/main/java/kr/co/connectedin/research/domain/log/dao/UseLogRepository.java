@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.log.dao;
+package kr.co.connectedin.research.domain.log.dao;
 
-import kr.ac.yonsei.maist.domain.log.domain.UseLog;
+import kr.co.connectedin.research.domain.log.domain.UseLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.ArrayList;

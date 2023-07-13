@@ -3,7 +3,7 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2020.10.19
  */
-package kr.ac.yonsei.maist.global.dto;
+package kr.co.connectedin.research.global.dto;
 
 import lombok.Getter;
 import lombok.Setter;

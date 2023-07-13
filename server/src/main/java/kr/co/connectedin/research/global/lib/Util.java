@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.global.lib;
+package kr.co.connectedin.research.global.lib;
 
 import java.io.File;
 import java.io.FileFilter;

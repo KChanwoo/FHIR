@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.user.dto;
+package kr.co.connectedin.research.domain.user.dto;
 
-import kr.ac.yonsei.maist.domain.menu.dto.MenuDto;
+import kr.co.connectedin.research.domain.menu.dto.MenuDto;
 import lombok.*;
 
 import java.util.List;

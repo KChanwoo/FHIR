@@ -3,12 +3,12 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.07
  */
-package kr.ac.yonsei.maist.global.error;
+package kr.co.connectedin.research.global.error;
 
 import io.jsonwebtoken.ExpiredJwtException;
-import kr.ac.yonsei.maist.global.error.exception.InvalidTokenException;
-import kr.ac.yonsei.maist.global.error.exception.UnauthorizedException;
-import kr.ac.yonsei.maist.global.response.ErrorResponseMessage;
+import kr.co.connectedin.research.global.error.exception.InvalidTokenException;
+import kr.co.connectedin.research.global.error.exception.UnauthorizedException;
+import kr.co.connectedin.research.global.response.ErrorResponseMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

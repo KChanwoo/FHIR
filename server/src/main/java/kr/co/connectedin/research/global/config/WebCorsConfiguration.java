@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.global.config;
+package kr.co.connectedin.research.global.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

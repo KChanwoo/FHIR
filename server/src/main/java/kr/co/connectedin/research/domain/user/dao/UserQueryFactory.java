@@ -1,14 +1,14 @@
-package kr.ac.yonsei.maist.domain.user.dao;
+package kr.co.connectedin.research.domain.user.dao;
 
 import com.querydsl.core.types.ExpressionUtils;
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import kr.ac.yonsei.maist.domain.user.domain.User;
-import kr.ac.yonsei.maist.domain.user.dto.UserInformationDto;
-import kr.ac.yonsei.maist.domain.user.dto.UserListResponseDto;
-import kr.ac.yonsei.maist.global.dto.PagingDto;
+import kr.co.connectedin.research.domain.user.domain.User;
+import kr.co.connectedin.research.domain.user.dto.UserInformationDto;
+import kr.co.connectedin.research.domain.user.dto.UserListResponseDto;
+import kr.co.connectedin.research.global.dto.PagingDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

@@ -5,13 +5,13 @@
  * @author Chanwoo Gwon, Yonsei Univ. Researcher, since 2020.05~
  * @Date 2021.02.02
  */
-package kr.ac.yonsei.maist.global.config.interceptor;
+package kr.co.connectedin.research.global.config.interceptor;
 
-import kr.ac.yonsei.maist.domain.menu.dto.Method;
-import kr.ac.yonsei.maist.domain.menu.service.MenuService;
-import kr.ac.yonsei.maist.domain.user.dto.UserInformationDto;
-import kr.ac.yonsei.maist.global.config.security.JwtTokenProvider;
-import kr.ac.yonsei.maist.global.error.exception.UnauthorizedException;
+import kr.co.connectedin.research.domain.menu.dto.Method;
+import kr.co.connectedin.research.domain.menu.service.MenuService;
+import kr.co.connectedin.research.domain.user.dto.UserInformationDto;
+import kr.co.connectedin.research.global.config.security.JwtTokenProvider;
+import kr.co.connectedin.research.global.error.exception.UnauthorizedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

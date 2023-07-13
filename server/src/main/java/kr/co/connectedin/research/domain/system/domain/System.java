@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.domain.system.domain;
+package kr.co.connectedin.research.domain.system.domain;
 
 import lombok.*;
 import org.hibernate.annotations.DynamicInsert;

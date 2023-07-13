@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'kr.ac.yonsei'
+group = 'kr.co.connectedin.research'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -31,6 +31,9 @@ dependencies {
 	
 	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui
 	implementation 'org.springdoc:springdoc-openapi-ui:1.6.13'
+
+	// https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/org.hl7.fhir.r5
+	implementation 'ca.uhn.hapi.fhir:org.hl7.fhir.r5:6.0.21'
 
 	annotationProcessor('org.projectlombok:lombok:1.18.20')
 	annotationProcessor("com.querydsl:querydsl-apt:${dependencyManagement.importedProperties['querydsl.version']}:jpa") // querydsl JPAAnnotationProcessor 사용 지정

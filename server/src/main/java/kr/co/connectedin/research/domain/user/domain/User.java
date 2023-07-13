@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.user.domain;
+package kr.co.connectedin.research.domain.user.domain;
 
-import kr.ac.yonsei.maist.domain.user.dto.UserPwdUpdateRequestDto;
+import kr.co.connectedin.research.domain.user.dto.UserPwdUpdateRequestDto;
 import lombok.*;
 import org.hibernate.annotations.ColumnTransformer;
 import org.hibernate.annotations.DynamicInsert;

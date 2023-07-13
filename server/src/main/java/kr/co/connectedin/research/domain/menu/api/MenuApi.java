@@ -1,11 +1,11 @@
-package kr.ac.yonsei.maist.domain.menu.api;
+package kr.co.connectedin.research.domain.menu.api;
 
-import kr.ac.yonsei.maist.domain.menu.dto.MenuAccessResponseDto;
-import kr.ac.yonsei.maist.domain.menu.dto.Method;
-import kr.ac.yonsei.maist.domain.menu.service.MenuService;
-import kr.ac.yonsei.maist.domain.user.dto.UserInformationDto;
-import kr.ac.yonsei.maist.global.config.security.JwtTokenProvider;
-import kr.ac.yonsei.maist.global.response.dataMessage.GeneralDataMessage;
+import kr.co.connectedin.research.domain.menu.dto.MenuAccessResponseDto;
+import kr.co.connectedin.research.domain.menu.dto.Method;
+import kr.co.connectedin.research.domain.menu.service.MenuService;
+import kr.co.connectedin.research.domain.user.dto.UserInformationDto;
+import kr.co.connectedin.research.global.config.security.JwtTokenProvider;
+import kr.co.connectedin.research.global.response.dataMessage.GeneralDataMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

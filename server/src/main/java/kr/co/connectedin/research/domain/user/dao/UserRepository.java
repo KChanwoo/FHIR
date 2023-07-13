@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.user.dao;
+package kr.co.connectedin.research.domain.user.dao;
 
-import kr.ac.yonsei.maist.domain.user.domain.User;
+import kr.co.connectedin.research.domain.user.domain.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

@@ -1,7 +1,7 @@
-package kr.ac.yonsei.maist.domain.user.dto;
+package kr.co.connectedin.research.domain.user.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import kr.ac.yonsei.maist.domain.user.domain.User;
+import kr.co.connectedin.research.domain.user.domain.User;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

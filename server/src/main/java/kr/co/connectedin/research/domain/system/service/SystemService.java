@@ -3,16 +3,16 @@
  * @Author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.03
  */
-package kr.ac.yonsei.maist.domain.system.service;
+package kr.co.connectedin.research.domain.system.service;
 
-import kr.ac.yonsei.maist.domain.system.dao.SystemQueryFactory;
-import kr.ac.yonsei.maist.domain.system.dao.SystemRepository;
-import kr.ac.yonsei.maist.domain.system.domain.System;
-import kr.ac.yonsei.maist.domain.system.dto.SystemCreateRequestDto;
-import kr.ac.yonsei.maist.domain.system.dto.SystemListResponseDto;
-import kr.ac.yonsei.maist.domain.system.dto.SystemResponseDto;
-import kr.ac.yonsei.maist.domain.system.dto.SystemUpdateRequestDto;
-import kr.ac.yonsei.maist.global.dto.PagingDto;
+import kr.co.connectedin.research.domain.system.dao.SystemQueryFactory;
+import kr.co.connectedin.research.domain.system.dao.SystemRepository;
+import kr.co.connectedin.research.domain.system.domain.System;
+import kr.co.connectedin.research.domain.system.dto.SystemCreateRequestDto;
+import kr.co.connectedin.research.domain.system.dto.SystemListResponseDto;
+import kr.co.connectedin.research.domain.system.dto.SystemResponseDto;
+import kr.co.connectedin.research.domain.system.dto.SystemUpdateRequestDto;
+import kr.co.connectedin.research.global.dto.PagingDto;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

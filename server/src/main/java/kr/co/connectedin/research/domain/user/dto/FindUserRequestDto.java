@@ -1,6 +1,6 @@
-package kr.ac.yonsei.maist.domain.user.dto;
+package kr.co.connectedin.research.domain.user.dto;
 
-import kr.ac.yonsei.maist.global.dto.PagingDto;
+import kr.co.connectedin.research.global.dto.PagingDto;
 import lombok.*;
 
 @Getter

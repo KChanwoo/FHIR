@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.domain.log.domain;
+package kr.co.connectedin.research.domain.log.domain;
 
 import lombok.Builder;
 import lombok.Getter;

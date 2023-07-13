@@ -1,11 +1,11 @@
-package kr.ac.yonsei.maist.domain.log.dao;
+package kr.co.connectedin.research.domain.log.dao;
 
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.core.types.dsl.NumberTemplate;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import kr.ac.yonsei.maist.domain.log.dto.UseLogListResponseDto;
-import kr.ac.yonsei.maist.domain.log.dto.UseLogRequestDto;
+import kr.co.connectedin.research.domain.log.dto.UseLogListResponseDto;
+import kr.co.connectedin.research.domain.log.dto.UseLogRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

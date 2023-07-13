@@ -3,17 +3,17 @@
  * @Author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.03
  */
-package kr.ac.yonsei.maist.domain.system.api;
+package kr.co.connectedin.research.domain.system.api;
 
-import kr.ac.yonsei.maist.domain.system.dto.SystemCreateRequestDto;
-import kr.ac.yonsei.maist.domain.system.dto.SystemListResponseDto;
-import kr.ac.yonsei.maist.domain.system.dto.SystemResponseDto;
-import kr.ac.yonsei.maist.domain.system.dto.SystemUpdateRequestDto;
-import kr.ac.yonsei.maist.domain.system.service.SystemService;
-import kr.ac.yonsei.maist.global.dto.PagingDto;
-import kr.ac.yonsei.maist.global.response.ResponseMessage;
-import kr.ac.yonsei.maist.global.response.dataMessage.GeneralDataMessage;
-import kr.ac.yonsei.maist.global.response.dataMessage.PagingDataMessage;
+import kr.co.connectedin.research.domain.system.dto.SystemCreateRequestDto;
+import kr.co.connectedin.research.domain.system.dto.SystemListResponseDto;
+import kr.co.connectedin.research.domain.system.dto.SystemResponseDto;
+import kr.co.connectedin.research.domain.system.dto.SystemUpdateRequestDto;
+import kr.co.connectedin.research.domain.system.service.SystemService;
+import kr.co.connectedin.research.global.dto.PagingDto;
+import kr.co.connectedin.research.global.response.ResponseMessage;
+import kr.co.connectedin.research.global.response.dataMessage.GeneralDataMessage;
+import kr.co.connectedin.research.global.response.dataMessage.PagingDataMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

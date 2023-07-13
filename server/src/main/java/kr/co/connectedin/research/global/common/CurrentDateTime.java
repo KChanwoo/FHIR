@@ -3,7 +3,7 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.06
  */
-package kr.ac.yonsei.maist.global.common;
+package kr.co.connectedin.research.global.common;
 
 import java.text.SimpleDateFormat;
 import java.time.Year;

@@ -4,11 +4,11 @@
  * @Date 2021.02.02
  * @Date 2022.06.14 - add find all, is allowed to access
  */
-package kr.ac.yonsei.maist.domain.menu.dao;
+package kr.co.connectedin.research.domain.menu.dao;
 
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import kr.ac.yonsei.maist.domain.menu.dto.MenuDto;
+import kr.co.connectedin.research.domain.menu.dto.MenuDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

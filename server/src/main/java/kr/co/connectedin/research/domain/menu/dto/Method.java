@@ -3,7 +3,7 @@
  * @author Chanwoo Gwon, Yonsei Univ. Researcher, since 2020.05~
  * @Date 2021.02.02
  */
-package kr.ac.yonsei.maist.domain.menu.dto;
+package kr.co.connectedin.research.domain.menu.dto;
 
 public enum Method {
     PAGE(0),

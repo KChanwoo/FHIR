@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		servers = @Server(url = "/")
 )
 @SpringBootApplication
-public class MaistDefaultApplication {
+public class CirFhirApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MaistDefaultApplication.class, args);
+		SpringApplication.run(CirFhirApplication.class, args);
 	}
 
 }

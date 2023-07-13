@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.global.config;
+package kr.co.connectedin.research.global.config;
 
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;

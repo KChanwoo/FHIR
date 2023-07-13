@@ -3,7 +3,7 @@
  * @author Mina Kim, Yonsei Univ. Researcher, since 2020.08~
  * @Date 2021.01.20
  */
-package kr.ac.yonsei.maist.global.error.exception;
+package kr.co.connectedin.research.global.error.exception;
 
 import io.jsonwebtoken.JwtException;
 

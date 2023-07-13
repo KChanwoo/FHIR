@@ -1,4 +1,4 @@
-package kr.ac.yonsei.maist.global.response.dataMessage;
+package kr.co.connectedin.research.global.response.dataMessage;
 
 import lombok.Builder;
 import lombok.Getter;
