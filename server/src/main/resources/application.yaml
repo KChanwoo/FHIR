@@ -1,0 +1,111 @@
+spring:
+  jwt:
+    secret: yonsei-maist
+jasypt:
+  encryptor:
+    bean: stringEncryptor
+server:
+  servlet:
+    context-path: /contextpath
+---
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:mysql://url:port/dbname?characterEncoding=UTF-8&serverTimezone=UTC
+    username: ENC()
+    password: ENC()
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+  servlet:
+    multipart:
+      maxFileSize: 100MB
+      maxRequestSize: 100MB
+logging:
+  pattern:
+    console: "%d %-5level %logger{30}:%line - %msg%n"
+  level:
+    org.hibernate.type: trace
+server:
+  port: 8443
+  http:
+    port: 8080
+  ssl:
+    enabled: true
+    key-store: /path/to/jks
+    key-store-password: password
+    key-password: password
+path:
+  upload: /usr/local/data/upload/
+---
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://url:port/dbname?characterEncoding=UTF-8&serverTimezone=UTC
+    username: ENC()
+    password: ENC()
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+  servlet:
+    multipart:
+      maxFileSize: 100MB
+      maxRequestSize: 100MB
+logging:
+  pattern:
+    console: "%d %-5level %logger{30}:%line - %msg%n"
+  level:
+    org.hibernate.type: debug
+server:
+  port: 8443
+  http:
+    port: 8080
+  ssl:
+    enabled: true
+    key-store: /path/to/jks
+    key-store-password: password
+    key-password: password
+path:
+  upload: /usr/data/upload/
+---
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:mysql://url:port/dbname?characterEncoding=UTF-8&serverTimezone=UTC
+    username: ENC()
+    password: ENC()
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+        format_sql: false
+        show_sql: false
+  servlet:
+    multipart:
+      maxFileSize: 100MB
+      maxRequestSize: 100MB
+logging:
+  pattern:
+    console: "%d %-5level %logger{30}:%line - %msg%n"
+  level:
+    org.hibernate.type: info
+server:
+  port: 8443
+  http:
+    port: 8080
+  ssl:
+    enabled: true
+    key-store: /path/to/jks
+    key-store-password: password
+    key-password: password
+path:
+  upload: /usr/data/upload/
